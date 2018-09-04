@@ -8,6 +8,8 @@
   <%= @article.text %>
 </p>
 
+<%= image_tag(@article.picture_url, width: 600) if @article.picture.present? %>
+
 <h2>Comments</h2>
 <%= render @article.comments %>
 
