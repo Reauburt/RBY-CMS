@@ -5,6 +5,7 @@ Install:
 * PostgreSQL
 
 Start:
+* Run `brew install imagemagick`
 * Run `bundle install`
 * Run `bundle exec rake db:setup`
 * Run `bin/rails server`
